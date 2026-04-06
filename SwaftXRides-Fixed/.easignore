@@ -1,0 +1,14 @@
+# Let EAS Build run Expo prebuild from app.json instead of using the checked-in
+# native Android directory, which can drift from the Expo config over time.
+/android
+/ios
+
+# Local tooling and caches
+/.expo
+/.gradle-cache
+/.idea
+/node_modules
+/dist
+
+# Existing local build artifacts
+*-local-*

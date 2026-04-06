@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+.gradle-cache/
+.idea/
+dist/
+npm-debug.*
+yarn-error.*
+# EAS/Build artifacts
+*-local-*

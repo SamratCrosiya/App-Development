@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Swaft X Rides",
+    "slug": "swaft-x-rides",
+    "scheme": "com.swaftx.rides",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#060A12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.swaftx.rides",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Swaft X uses your location to find the nearest pickup point and compare ride fares in your area.",
+        "NSLocationAlwaysUsageDescription": "Swaft X uses your location to find the nearest pickup point."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#060A12"
+      },
+      "package": "com.swaftx.rides",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Swaft X uses your location to find the nearest pickup point and compare ride fares."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d078db4e-700e-44fd-b071-8feffc08f253"
+      }
+    }
+  }
+}
